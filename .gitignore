@@ -1,0 +1,24 @@
+
+# Secrets and local configuration
+.env
+.env.*
+config/database.php
+config/mailer.php
+
+# Private uploads and backups
+uploads/*
+!uploads/.gitkeep
+repair_backup/
+
+# Database exports and logs
+*.sql
+*.log
+
+# Temporary and backup files
+*.bak
+*.backup
+*.backup_*
+*.before_*
+
+# Local token secret
+config/token_secret.php
